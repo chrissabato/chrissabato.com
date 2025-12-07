@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+		<div class="page-content">
+
+      <section>
+          <div class="container">
+            <div class="mb-2">
+              <a class="btn btn-light" href="\archives.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</a>
+            </div>
+            <small>
+              <i>
+                {{ article.locale_date }}
+              </i>
+            </small>
+            {{ article.content }}
+          </div>
+      </section>
+    </div>
+{% endblock %}

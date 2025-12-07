@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags }} - Archives{% endblock %}
+
+{% block content %}
+				<div class="page-content">
+
+
+                    <section>
+						<div class="container">
+                            <h2>Posts</h2>
+                            <div class="row">
+                            {% for article in dates %}
+                                 {% set article_path_no_domain = article.url|replace('https://chrissabato.com/', '') %}
+                                {% set article_path = article_path_no_domain|replace('/index.html', '') %}
+                                            
+                                <div class="col-sm-6 col-md-4 mb-8 ">
+                                    <article class="news-block border-0">
+                                        <div class="news-body p-0">
+                                            <div class="mb-4">
+												{% if article.image is defined and article.image|length > 0 %}
+													<img class="img-fluid w-100 rounded"  src="{{ article.image }}" alt="{{ article.title }}">
+												{% else %}
+                                                	<img class="img-fluid w-100 rounded" src="{{ article_path }}/{{ article_path }}.png" alt="{{ article.title }}">
+												{% endif %}
+											</div>
+                                            <small class="d-block mb-1">{{ article.locale_date }}</small>
+                                            <h2 class="h4 mb-1">
+
+                                                <a href="{{  article_path  }}">{{ article.title }}</a>
+                                            </h2>
+                                            <p>{{ article.summary }}</p>
+                                        </div>
+                                    </article>
+                                </div>
+                            {% endfor %}
+                            </div>
+						</div>
+					</section>
+
+
+
+
+{% endblock %}

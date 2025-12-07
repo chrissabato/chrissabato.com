@@ -1,0 +1,27 @@
+﻿/* Place Your Custom Styles Here */
+
+.social-links li{
+    margin:0 !important;
+}
+
+.logo img {
+    opacity: 15%;
+    position: absolute !important;
+    top: -165%;
+}
+
+#home .logo{
+    opacity: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+}
+
+
+@media (min-width: 1200px) {
+    .site-header {
+        z-index: 9999;
+    }
+}
