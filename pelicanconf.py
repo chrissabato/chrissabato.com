@@ -11,7 +11,7 @@ DEFAULT_LANG = 'English'
 
 # --- Custom Settings for Folder-per-Post Structure ---
 # 1. PATH_METADATA ensures directory names are not used as categories/slugs
-#PATH_METADATA = '(?P<slug>.*)\\..*' 
+PATH_METADATA = '(?P<slug>.*)\\..*' 
 
 # 2. Ensures posts without a Category metadata field default to 'General'
 DEFAULT_CATEGORY = 'General' 
@@ -27,7 +27,6 @@ IGNORE_FILES = ['.#*', '.DS_Store', '*.bak']
 
 DELETE_OUTPUT_DIRECTORY = True
 
-MARKUP = ('md',)
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
