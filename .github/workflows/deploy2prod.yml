@@ -45,5 +45,5 @@ jobs:
           
           # Deployment Configuration
           SOURCE: ${{ env.PELICAN_OUTPUT_DIR }}/ 
-          TARGET: /home/chrissabato/www/chrissabato.com/ 
+          TARGET: /home/chrissabato/www/chrissabato.com/html/ 
           ARGS: "-avz --delete" # --delete removes old files from the server that are no longer in the output/ folder
