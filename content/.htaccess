@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect all requests from /blog/test/ to /test/
+# The [R=301] flag makes this a permanent redirect, which is good for SEO.
+# The [L] flag stops processing other rules.
+RewriteRule ^blog/(.*)$ /$1 [R=301,L]
