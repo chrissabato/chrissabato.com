@@ -8,7 +8,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # --- Production Overrides ---
-SITEURL = 'https://chrissabato.com'
+SITEURL = 'https://dev.chrissabato.com'
 RELATIVE_URLS = False # Must be False for production
 
 # Disable unnecessary feeds for development/publishing if you don't use them
