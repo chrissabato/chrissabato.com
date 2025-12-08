@@ -14,3 +14,5 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py" # Use your publish configuration file
+      # ADD THIS LINE:
+      requirements: "-r requirements.txt"
