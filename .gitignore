@@ -1,2 +1,4 @@
 # Pelican output directory
 output/
+__pycache__/
+*.pyc

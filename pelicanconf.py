@@ -39,9 +39,10 @@ THEME = "themes/sabato"
 
 # pelicanconf.py
 
-JINJA_ENVIRONMENT = {
-    'extensions': ['jinja2_time.TimeExtension'],
-}
+# JINJA_ENVIRONMENT = {
+#     'extensions': ['jinja2_time.TimeExtension'],
+# }
+
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
