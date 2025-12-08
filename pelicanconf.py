@@ -28,6 +28,7 @@ IGNORE_FILES = ['.#*', '.DS_Store', '*.bak']
 
 DELETE_OUTPUT_DIRECTORY = True
 
+MARKUP = ('md',)
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

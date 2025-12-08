@@ -20,4 +20,6 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 # It defaults to True if not defined, but setting it explicitly is clear:
 DELETE_OUTPUT_DIRECTORY = True
 
+MARKUP = ('md',)
+
 # REMOVE all SSH_ and PUBLISH_COMMAND settings!
