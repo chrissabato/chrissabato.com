@@ -3,7 +3,8 @@ SITENAME = 'Chris Sabato'
 SITENAME_LETTERS = 'CS'
 SITEURL = ""
 
-PATH = 'content'
+#PATH = 'content'
+PATH = 'content/test-publish'
 
 TIMEZONE = 'America/Los_Angeles'
 
