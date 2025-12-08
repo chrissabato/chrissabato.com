@@ -1,6 +1,6 @@
 ---
 Date: 2025-09-23
-Updated: 2025-11-13
+Updated: Dec 8, 2025
 Title: Recomendations
 Summary: A running collection of things I use and things I often recomend
 ---
@@ -13,7 +13,7 @@ Folks often ask me about things I use or recomend. As that happens I will add th
     * 10' x 8' Custom Tension Fabric Backdrop — [Banner Buzz](https://www.bannerbuzz.com/straight-pillow-case-backdrop/p)
     * 12' x 10' Fescue Turf  — [Home Depot](https://www.homedepot.com/p/TrafficMaster-Fescue-Multipurpose-12-ft-W-x-Cut-to-Length-Green-Artificial-Grass-Turf-TMCSBRN421275/311276440)
     * Lighting Kit — [B&H List](https://www.bhphotovideo.com/find/wishlist.jsp/#/23694994/)
-* Media Day White Seemless Setup — [B&H List](https://www.bnh.com/wish/b335d738530dd6dd8cda37ca5bf8a254/)
+* Media Day White Seamless Setup — [B&H List](https://www.bnh.com/wish/b335d738530dd6dd8cda37ca5bf8a254/)
 * Photography Kit — [B&H List](https://www.bnh.com/wish/c765eee17c0a798bdc97ddf89d8a1886/)
 
 ###Broadcast
