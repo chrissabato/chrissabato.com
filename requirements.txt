@@ -1,4 +1,3 @@
-pelican
-python-markdown # Use this instead of the simpler 'markdown'
+pelican[markdown]
 invoke
 livereload
