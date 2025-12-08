@@ -11,8 +11,11 @@
             <small>
               <i>
                 {{ article.locale_date }}
-
-
+ 
+								{% if article.updated %}
+                  {# Display only the Updated date, formatted #}
+                 | Updated: {{ article.updated}}
+                {% endif %}
                 				
 
 									

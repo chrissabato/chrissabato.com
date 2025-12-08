@@ -6,7 +6,7 @@ SITEURL = ""
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
-
+DEFAULT_DATE_FORMAT = '%b %d, %Y'
 DEFAULT_LANG = 'English'
 
 # --- Custom Settings for Folder-per-Post Structure ---
@@ -37,6 +37,11 @@ AUTHOR_FEED_RSS = None
 
 THEME = "themes/sabato"
 
+# pelicanconf.py
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2_time.TimeExtension'],
+}
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),

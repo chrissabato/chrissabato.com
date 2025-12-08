@@ -1,6 +1,6 @@
 ---
 Date: 2025-09-23
-Updated: 2025-11-13
+Updated: Dec 8, 2025
 Title: Recomendations
 Summary: A running collection of things I use and things I often recomend
 ---
