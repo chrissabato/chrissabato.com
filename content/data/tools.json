@@ -1,0 +1,18 @@
+{
+  "tools_list": [
+    { "name": "vMix", "proficiency": 95 },
+    { "name": "NDI", "proficiency": 85 },
+    { "name": "Bitfocus Companion", "proficiency": 85 },
+    { "name": "PhotoMechanic", "proficiency": 90 },
+    { "name": "Adobe Creative Suite", "proficiency": 75 },
+    { "name": "Python", "proficiency": 60 },
+    { "name": "PHP", "proficiency": 60 },
+    { "name": "JavaScript", "proficiency": 60 },
+    { "name": "HTML/CSS", "proficiency": 60 },
+    { "name": "PrestoSports Template Engine", "proficiency": 80 },
+    { "name": "Hy-Tek", "proficiency": 95 },
+    { "name": "MeetPro", "proficiency": 95 },
+    { "name": "FinishLynx", "proficiency": 95 },
+    { "name": "Colorado Timing System 7", "proficiency": 80 }
+  ]
+}

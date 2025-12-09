@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "title": "Video Production",
+      "icon": "ti-video-camera",
+      "description": "Specializing in small broadcasts utilizing automations and data driven graphics with locked off cameras to make the production feel bigger."
+    },
+    {
+      "title": "Photography",
+      "icon": "ti-camera",
+      "description": "Sports photographer skilled in capturing action on the field or mastering lighting in the studio."
+    },
+    {
+      "title": "Graphic Design",
+      "icon": "ti-brush-alt",
+      "description": "Skilled in print and digital, specializing in template driven design to enable quickly turning out content for the web, social or physical media."
+    },
+    {
+      "title": "Video Editing",
+      "icon": "ti-video-clapper",
+      "description": "Knowledgeable in non-linear video editing and basic motion graphics including MORGT design and use."
+    },
+    {
+      "title": "Programming",
+      "icon": "ti-harddrives",
+      "description": "Proficient in several programing languages having created many custom programs for managing broadcast data, social media and web site data."
+    },
+    {
+      "title": "Photo Finish Timing",
+      "icon": "ti-timer",
+      "description": "Adept in all aspects of cross country and track & field timing including photo finish and RFID chip timing as well as meet management software."
+    }
+  ]
+}

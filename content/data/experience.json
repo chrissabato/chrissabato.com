@@ -1,0 +1,40 @@
+{
+  "experience_jobs": [
+    {
+      "title": "Director of Athletic Communications",
+      "company": "Willamette University | Salem, Oregon",
+      "duration": "2024 - Present",
+      "description": "Responsible for media production and general sports information duties with in the department of Athletics. This includes all aspects of the Bearcat Network which streams over 100 events per year. Source or capture and catalog all digital imagery, including managing student photographers and hiring of contract photographers. Manage the structure and design of wubearcats.com adding elements and structure to better showcase student-athletes. Streamline processes through custom programs to better manage time and resources."
+    },
+    {
+      "title": "Assistant Athletic Director, Media",
+      "company": "Willamette University | Salem, Oregon",
+      "duration": "2016 - 2024 (8 years)",
+      "description": "Responsible for media production with in the department of Athletics. This includes all aspects of the Bearcat Network which streams over 100 events per year. Source or capture and catalog all digital imagery, including managing student photographers and hiring of contract photographers. Manage the structure and design of wubearcats.com adding elements and structure to better showcase student-athletes. Streamline processes through custom programs to better manage time and resources."
+    },
+    {
+      "title": "Creative Project Specialist",
+      "company": "Willamette University | Salem, Oregon",
+      "duration": "2012 - 2016 (4 years)",
+      "description": "Responsible for the visual design of print and web materials produced by the department of athletics. Designed schedule posters, camp brochures and other publications. Provided action and portrait photography, including game coverage, player headshots and portraits for posters and other media elements. Technical advisor for departmental audio visual and networking needs as well as internet based applications and software. Implemented in-house web streaming for baseball, basketball, football, soccer, softball and volleyball."
+    },
+    {
+      "title": "Assistant Track & Field Coach",
+      "company": "Willamette University | Salem, Oregon",
+      "duration": "2005 - 2014 (9 years)",
+      "description": "Coached the pole vaulters, sprinters, and jumpers. Served as meet director for cross country and track & field home meets including Northwest Conference and NCAA Championships. Organized and managed apparel supply and distribution. Maintained and repaired track and field equipment. Kept records including authoring custom programs for retrieving data from TFRRS for use on the athletics web site."
+    },
+    {
+      "title": "Assistant Track & Field Coach",
+      "company": "Rhodes College | Memphis, Tennesee",
+      "duration": "2003 - 2005 (1 yr 10 mos)",
+      "description": "Coached and recruited pole vaulters, sprinters, and jumpers."
+    },
+    {
+      "title": "IT Desktop Support",
+      "company": "Alstom Signalling | Rochester, New York",
+      "duration": "2002 - 2003 (1 yr 6 mos)",
+      "description": "Addressing user tickets regarding hardware, software and networking. Walking customers through installing applications and computer peripherals."
+    }
+  ]
+}

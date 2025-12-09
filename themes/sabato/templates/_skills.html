@@ -1,0 +1,32 @@
+<section id="skills" class="pb-0">
+    <div class="container">
+        <div class="row mb-8">
+            <div class="col-lg-10 col-xl-8 mx-lg-auto text-center">
+                <div class="section-title h2 mb-3">
+                    <h2 class="mb-0">Skills</h2>
+                    <span class="title-letter">S</span>
+                </div>
+                <p>A jack of all trades is a master of none, though often times better than master of one.</p>
+            </div>
+        </div>
+        <div class="row my-n2 mx-sm-n2">
+
+            {% if DATA_SKILLS.skills %}
+            {% for skill in DATA_SKILLS.skills %}
+            <div class="col-md-6 col-xl-4 py-2 px-md-2">
+                <div class="feature-block feature-boxed feature-decorated">
+                    <div class="feature-icon text-primary mb-3">
+                        <div>
+                            <i class="{{ skill.icon }}"></i>
+                        </div>
+                    </div>
+                    <h3 class="h4 mb-2">{{ skill.title }}</h3>
+                    <p>{{ skill.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+
+        </div>
+    </div>
+</section>

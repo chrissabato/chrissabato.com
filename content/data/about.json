@@ -1,0 +1,30 @@
+{
+  "name": "Chris Sabato",
+  "image_path": "/theme/images/avatar.jpg",
+
+  "bio_paragraphs": [
+    "I am a creative for the Willamette University athletics department. A member of the Bearcat staff since 2005, I was promoted to Director of Athletic Communications in 2024.",
+    "I am responsible for video production, graphic design, photography, and social media within the athletics department. In this role, I am also responsible for the management of the Willamette University Athletics brand and identity.",
+    "An engineer at my core, I pride myself in my ability to find creative solutions. I have created numerous custom programs to save time and money. By creating in house solutions in lieu of purchasing an expensive alternative I'm able it make improvements by investing only time.",
+    "As an electronic timer for Willamette cross country and track & field meets I was interviewed by the New York Times to help explain the unprecedented tie in the 2012 Olympic Trials women's 100-meter dash.",
+    "Born and Raised in Western New York, I'm and devoted Buffalo sports fan... a life long member of Bills Mafia, an avid Sabres and Bandits fan."
+  ],
+
+  "education": [
+    {
+      "degree": "BS Electrical Engineering",
+      "institution": "Alfred University",
+      "year": 2002
+    }
+  ],
+
+  "certifications": [
+    {
+      "body": "USA Track & Field",
+      "details": [
+        "Official &mdash; National",
+        "Coach &mdash; Level 1"
+      ]
+    }
+  ]
+}
