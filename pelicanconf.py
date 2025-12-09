@@ -37,5 +37,7 @@ AUTHOR_FEED_RSS = None
 
 THEME = "themes/sabato"
 
-
+PLUGINS = [
+    'pelican_data_files',  # Enable the data files plugin
+]
 
