@@ -7,13 +7,11 @@ PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
-# --- Custom Settings for Folder-per-Post Structure ---
-# 1. PATH_METADATA ensures directory names are not used as categories/slugs
-PATH_METADATA = '(?P<slug>.*)\\..*' 
 
-# 2. Ensures posts without a Category metadata field default to 'General'
+PATH_METADATA = r'(?P<slug>.*)\..*' 
+
 DEFAULT_CATEGORY = 'General' 
 
 # 3. Tell Pelican to copy static assets (like images) from the 'content' folders
@@ -36,6 +34,3 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = "themes/sabato"
-
-
-
