@@ -28,7 +28,8 @@ jobs:
       - name: 📦 Install Pelican and Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pelican markdown # Add any other dependencies like your theme, plugins, etc.
+          pip install -r requirements.txt
+          pip install pelican markdown
 
       - name: 🏗️ Build Pelican Site
         run: |
