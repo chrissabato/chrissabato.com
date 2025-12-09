@@ -1,0 +1,26 @@
+<section id="experience" class="pb-0">
+    <div class="container">
+        <div class="section-title h2 text-center mb-8">
+            <h2 class="mb-0">Experience</h2>
+            <span class="title-letter">E</span>
+        </div>
+
+        {% if DATA_EXPERIENCE.experience_jobs %}
+            {% for job in DATA_EXPERIENCE.experience_jobs %} 
+            <div class="row">
+                <div class="col-lg-4 mb-1 mb-lg-0">
+                    <p class="h5 mb-0">{{ job.title }}</p>
+                    <p class="opacity-75 mb-0">{{ job.company }}</p>
+                    <p class="opacity-75 mb-0">{{ job.duration }}</p>
+                </div>
+                <div class="col-lg-8">
+                    <p>{{ job.description }}</p>
+                </div>
+            </div>
+            {% if not loop.last %}
+            <hr>
+            {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>

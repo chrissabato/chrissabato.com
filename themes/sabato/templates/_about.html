@@ -1,0 +1,43 @@
+<section id="about" class="pb-0">
+    <div class="container">
+        <div class="section-title h2 text-center mb-8">
+            <h2 class="mb-0">About</h2>
+            <span class="title-letter">A</span>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                <img class="img-fluid w-100 rounded" src="{{ DATA_ABOUT.image_path }}" alt="{{ DATA_ABOUT.name }}">
+            </div>
+            <div class="col-lg-8">
+                <h3>{{ DATA_ABOUT.name }}</h3>
+                
+                {# Loop through the bio paragraphs #}
+                {% for paragraph in DATA_ABOUT.bio_paragraphs %}
+                <p class="mb-5">{{ paragraph }}</p>
+                {% endfor %}
+
+                <div class="row mb-0">
+                    <div class="col-md-6">
+                        <h4 class="mb-1">Education</h4>
+                        {# Loop through education items #}
+                        {% for item in DATA_ABOUT.education %}
+                        <p class="h5 mb-0">{{ item.degree }}</p>
+                        <p class="mb-0">{{ item.institution }}, {{ item.year }}</p>
+                        {% endfor %}
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4 class="mb-1">Certifications</h4>
+                        {# Loop through certifications #}
+                        {% for cert in DATA_ABOUT.certifications %}
+                        <p class="h5 mb-0">{{ cert.body }}</p>
+                            {% for detail in cert.details %}
+                            <p class="mb-0">{{ detail }}</p>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
