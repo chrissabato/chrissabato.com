@@ -3,7 +3,6 @@ Title: Focus on Chris Sabato: One-Man Show
 Date: 2023-02-02
 Summary: Chris Sabato joins Office Hours for a second hour focused on his one-man-band sports productions.
 Tags: featured
-Image: 20230202/20230202.png
 ---
 
 

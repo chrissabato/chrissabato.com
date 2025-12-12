@@ -5,14 +5,19 @@ on:
     branches: ["dev"] # Change "main" to your source branch name if different
   workflow_dispatch:
 
+
 jobs:
   deploy:
-    uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
+    # --- UPDATE THIS LINE ---
+    # uses: "getpelican/pelican/.github/workflows/github_pages.yml@main" 
+    uses: "./.github/workflows/pelican-deploy-local.yml.yml" # <-- Point to your new local file
+    
+
     permissions:
       contents: "read"
       pages: "write"
-      id-token: "write"
+      id-token: "write" 
+    
     with:
-      settings: "publishconf.py" # Use your publish configuration file
-      # ADD THIS LINE:
+      settings: "publishconf.py"
       requirements: "-r requirements.txt"

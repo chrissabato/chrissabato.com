@@ -2,6 +2,7 @@
 Title: Follow me through a weekend during crossover season
 Date: 2025-11-10
 Summary: Two basketball games, two soccer games, football, and volleyball, all at home on Friday and Saturday. Plus a couple of teams on the road.
+Tags: featured
 ---
 
 ## Follow me through a weekend during crossover season

@@ -3,7 +3,6 @@ Date: 2025-05-01
 Title: Athletic Communications Discord
 Summary: A dedicated discussion space for athletics communicators to connect, share ideas, and ask questions.
 Tags: featured
-Image: discord/discord.png
 ---
 
 ## Athletic Communications Discord

@@ -3,6 +3,7 @@ Date: 2025-09-23
 Updated: Dec 8, 2025
 Title: Recomendations
 Summary: A running collection of things I use and things I often recomend
+Tags: featured
 ---
 
 ## A collection of things I use or recomend

@@ -2,7 +2,7 @@
 Title: Conversations with Tony Mobley
 Date: 2025-12-10
 Summary: I joined Tony Mobley for a conversion about what I've been up to latley.
-Image: 20251210.jpg
+Tags: featured
 ---
 
 

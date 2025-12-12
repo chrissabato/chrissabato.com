@@ -3,7 +3,6 @@ Title: Sabato Receives CSC ChangeMaker Innovation Award
 Date: 2025-05-22
 Summary: Chris Sabato has been named a recipient of the 2024-25 College Sports Communicators ChangeMaker Innovation Award. 
 Tags: featured
-Image: 20250522/20250522.png
 ---
 
 

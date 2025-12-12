@@ -2,7 +2,6 @@
 Title: Automating a play-by-play call sheet in Excel
 Date: 2025-01-01
 Summary: As a proof of concept, I built a women's basketball play-by-play call sheet in Excel that automatically updates roster and stat information from the NCAA database.
-og_image: 20250101.png
 ---
 ## Automating a play-by-play call sheet in Excel
 As a proof of concept, I built a women's basketball play-by-play call sheet in Excel that automatically updates roster and stat information from the NCAA database.
