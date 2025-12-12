@@ -2,8 +2,8 @@
 Title: Automating a play-by-play call sheet in Google Sheets
 Date: 2025-01-03
 Summary: As a proof of concept, I built a women's basketball play-by-play call sheet in Google Sheets that automatically updates roster and stat information from the NCAA database.
-og_image: 20250103.png
 ---
+
 ## Automating a play-by-play call sheet in Google Sheets
 As a proof of concept, I built a women's basketball play-by-play call sheet in Google Sheets that automatically updates roster and stat information from the NCAA database.
 
