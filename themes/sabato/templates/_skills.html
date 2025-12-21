@@ -13,8 +13,9 @@
 
             {% if DATA_SKILLS.skills %}
             {% for skill in DATA_SKILLS.skills %}
-            <div class="col-md-6 col-xl-4 py-2 px-md-2">
-                <div class="feature-block feature-boxed feature-decorated">
+            <div class="col-sm-6 col-md-4 mb-6 d-flex">
+                <div class="feature-block feature-boxed feature-decorated h-100 d-flex flex-column w-100" >                           
+
                     <div class="feature-icon text-primary mb-3">
                         <div>
                             <i class="{{ skill.icon }}"></i>
