@@ -1,5 +1,5 @@
 ---
-Title: Remote Production: Expanding the Talent Pool through Web Innovation
+Title: Remote Production though a sinlge url
 Date: 2026-01-24
 Summary: By leveraging AI and a custom vMix-web interface, I developed a remote dashboard that allows volunteers to direct broadcasts from anywhere.
 Tags: featured

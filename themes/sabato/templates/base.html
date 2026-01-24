@@ -1,253 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 
-		<!-- Title -->
-		<title>Chris Sabato, Small College Athletics Creative</title>
+<head>
 
-		<!-- Required Meta Tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Learn a little about Chris Sabato">
-		<meta name="author" content="chrissabato.com">
+	<!-- Title -->
+	<title>{% block title %}{% if article %}{{ article.title|striptags }} - {{ SITENAME }}{% elif page %}{{
+		page.title|striptags }} - {{ SITENAME }}{% else %}Chris Sabato, Small College Athletics Creative{% endif %}{%
+		endblock %}</title>
 
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@chrissabato" />
-		<meta name="twitter:creator" content="@chrissabato" />
+	<!-- Required Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description"
+		content="{% block description %}{% if article %}{{ article.summary|striptags|truncate(160) }}{% elif page %}{{ page.summary|striptags|truncate(160) if page.summary else 'Learn a little about Chris Sabato' }}{% else %}Learn a little about Chris Sabato{% endif %}{% endblock %}">
+	<meta name="author" content="chrissabato.com">
 
-		<meta property="og:url" content="https://chrissabato.com" />
-		<meta property="og:title" content="Chris Sabato, Small College Athletics Creative" />
-		<meta property="og:description" content="Learn a little about Chris Sabato." />
-		<meta property="og:image" content="https://chrissabato.com/images/image-1.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@chrissabato" />
+	<meta name="twitter:creator" content="@chrissabato" />
+
+	{% block opengraph %}
+	{% if article %}
+	<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+	<meta property="og:title" content="{{ article.title|striptags }}" />
+	<meta property="og:description" content="{{ article.summary|striptags|truncate(200) }}" />
+	<meta property="og:image"
+		content="{{ SITEURL }}/{% if article.og_image %}{{ article.og_image }}{% elif article.image %}{{ article.image }}{% else %}theme/images/image-1.jpg{% endif %}" />
+	{% elif page %}
+	<meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+	<meta property="og:title" content="{{ page.title|striptags }}" />
+	<meta property="og:description"
+		content="{{ page.summary|striptags|truncate(200) if page.summary else 'Learn a little about Chris Sabato.' }}" />
+	<meta property="og:image"
+		content="{{ SITEURL }}/{% if page.og_image %}{{ page.og_image }}{% elif page.image %}{{ page.image }}{% else %}theme/images/image-1.jpg{% endif %}" />
+	{% else %}
+	<meta property="og:url" content="{{ SITEURL }}/" />
+	<meta property="og:title" content="Chris Sabato, Small College Athletics Creative" />
+	<meta property="og:description" content="Learn a little about Chris Sabato." />
+	<meta property="og:image" content="{{ SITEURL }}/theme/images/image-1.jpg" />
+	{% endif %}
+	<meta property="og:type" content="{% if article %}article{% else %}website{% endif %}" />
+	{% endblock %}
 
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/theme/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/theme/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/theme/favicon/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/theme/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/theme/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/theme/favicon/favicon-16x16.png">
 
 
-		<!-- Base CSS -->
-    <link rel="stylesheet" href="/theme/vendor/bootstrap/dist/css/bootstrap.min.css">
+	<!-- Base CSS -->
+	<link rel="stylesheet" href="/theme/vendor/bootstrap/dist/css/bootstrap.min.css">
 
-		<link rel="stylesheet" href="/theme/css/style.css">
-		<link rel="stylesheet" href="/theme/css/utilities.css">
-		<link rel="stylesheet" href="/theme/css/custom.css">
+	<link rel="stylesheet" href="/theme/css/style.css">
+	<link rel="stylesheet" href="/theme/css/utilities.css">
+	<link rel="stylesheet" href="/theme/css/custom.css">
 
-		<!-- Libs CSS -->
-		<link rel="stylesheet" href="/theme/vendor/slick/slick.min.css" type="text/css">
-		<link rel="stylesheet" href="/theme/vendor/vegas/vegas.min.css" type="text/css">
-		<link rel="stylesheet" href="/theme/vendor/featherlight/featherlight.min.css" type="text/css">
-		<link rel="stylesheet" href="/theme/vendor/featherlight/featherlight.gallery.min.css" type="text/css">
-		<link rel="stylesheet" href="/theme/vendor/themify-icons/css/themify-icons.css" type="text/css">
+	<!-- Libs CSS -->
+	<link rel="stylesheet" href="/theme/vendor/slick/slick.min.css" type="text/css">
+	<link rel="stylesheet" href="/theme/vendor/vegas/vegas.min.css" type="text/css">
+	<link rel="stylesheet" href="/theme/vendor/featherlight/featherlight.min.css" type="text/css">
+	<link rel="stylesheet" href="/theme/vendor/featherlight/featherlight.gallery.min.css" type="text/css">
+	<link rel="stylesheet" href="/theme/vendor/themify-icons/css/themify-icons.css" type="text/css">
 
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/8311e2687d.js" crossorigin="anonymous"></script>
+	<!-- Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8311e2687d.js" crossorigin="anonymous"></script>
 
-		
-	</head>
-	<body>
 
-		<div id="preloader" class="preloader">
-			<div class="loader-status">
-				<div class="spinner"></div>
+</head>
+
+<body>
+
+	<div id="preloader" class="preloader">
+		<div class="loader-status">
+			<div class="spinner"></div>
+		</div>
+	</div>
+
+	<div class="site-container">
+
+		<div id="top"></div>
+
+		<!-- Mobile logo -->
+		<a href="#" class="mobile-logo mobile-logo-light">
+			<div class="overlay">
+				<div class="overlay-inner bg-primary opacity-50"></div>
 			</div>
+			<span>Chris Sabato</span>
+		</a>
+
+		<!-- Navigation toggle -->
+		<button type="button" id="navigation-toggle" class="nav-toggle nav-toggle-light">
+			<div class="overlay">
+				<div class="overlay-inner bg-primary opacity-50"></div>
+			</div>
+			<span></span>
+		</button>
+
+		<!-- Site header -->
+		<header class="site-header bg-transparent">
+			<div class="header-inner">
+				<div class="overlay">
+					<div class="overlay-inner bg-primary opacity-85"></div>
+				</div>
+				<div class="header-brand">
+					<!-- Logo -->
+					<a href="/" class="logo">
+						<span>Chris Sabato</span>
+						<img src="/theme/images/cs-logo-white.svg" />
+					</a>
+				</div>
+				<div class="nav-divider mb-8"></div>
+				<nav class="site-nav">
+					<ul id="navigation" class="text-center">
+						{% if output_file == 'index.html' and articles_page %}
+						<li><a href="/#home" class="scrollto">Home</a></li>
+						{% else %}
+						<li><a href="/" class="">Home</a></li>
+						{% endif %}
+						<li><a href="/#about" class="scrollto">About</a></li>
+						<li><a href="/#experience" class="scrollto">Experience</a></li>
+						<li><a href="/#skills" class="scrollto">Skills</a></li>
+						<li><a href="/#tools" class="scrollto">Tools</a></li>
+						<li><a href="/#posts" class="scrollto">Posts</a></li>
+						<li><a href="/#contact" class="scrollto">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="nav-divider my-8"></div>
+				<nav>
+					<ul class="list-inline text-center social-links">
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://facebook.com/chrissabato">
+								<span class="btn-icon-inner fab fa-facebook-f"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://instagram.com/chrissabato">
+								<span class="btn-icon-inner fab fa-instagram"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://twitter.com/chrissabato">
+								<span class="btn-icon-inner fab fa-twitter"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://mastodon.chrissabato.com/@chrissabato">
+								<span class="btn-icon-inner fab fa-mastodon"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://linkedin.com/go/chrissabato">
+								<span class="btn-icon-inner fab fa-linkedin"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://discordapp.com/users/558117063714013184">
+								<span class="btn-icon-inner fab fa-discord"></span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle"
+								href="https://hgithub.com/chrissabato">
+								<span class="btn-icon-inner fab fa-github"></span>
+							</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Header overlay -->
+		<div class="header-overlay">
+			<div class="overlay-inner bg-primary opacity-80"></div>
 		</div>
 
-		<div class="site-container">
+		<!-- Back to top button -->
+		<button type="button" id="backtotop" class="btn btn-primary btn-icon">
+			<span class="btn-icon-inner fas fa-angle-up"></span>
+		</button>
 
-			<div id="top"></div>
+		<!-- article wrapper -->
+		<div class="page-wrapper">
+			{% block content %}
+			{% endblock content %}
+			<!-- Site footer -->
+			<footer class="site-footer bg-light">
+				<div class="container">
+					<nav class="mb-3">
+						<ul class="list-inline text-center">
 
-			<!-- Mobile logo -->
-			<a href="#" class="mobile-logo mobile-logo-light">
-				<div class="overlay">
-					<div class="overlay-inner bg-primary opacity-50"></div>
-				</div>
-				<span>Chris Sabato</span>
-			</a>
 
-			<!-- Navigation toggle -->
-			<button type="button" id="navigation-toggle" class="nav-toggle nav-toggle-light">
-				<div class="overlay">
-					<div class="overlay-inner bg-primary opacity-50"></div>
-				</div>
-				<span></span>
-			</button>
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://facebook.com/chrissabato">
+									<span class="btn-icon-inner fab fa-facebook-f"></span>
+								</a>
+							</li>
 
-			<!-- Site header -->
-			<header class="site-header bg-transparent">
-				<div class="header-inner">
-					<div class="overlay">
-						<div class="overlay-inner bg-primary opacity-85"></div>
-					</div>
-					<div class="header-brand">
-						<!-- Logo -->
-						<a href="/" class="logo">
-							<span>Chris Sabato</span>
-							<img src="/theme/images/cs-logo-white.svg" />
-						</a>
-					</div>
-					<div class="nav-divider mb-8"></div>
-					<nav class="site-nav">
-						<ul id="navigation"  class="text-center">
-							{% if output_file == 'index.html' and articles_page %}
-								<li><a href="/#home" class="scrollto">Home</a></li>
-							{% else %}
-								<li><a href="/" class="">Home</a></li>
-							{% endif %}
-							<li><a href="/#about" class="scrollto">About</a></li>
-							<li><a href="/#experience" class="scrollto">Experience</a></li>
-							<li><a href="/#skills" class="scrollto">Skills</a></li>
-							<li><a href="/#tools" class="scrollto">Tools</a></li>
-							<li><a href="/#posts" class="scrollto">Posts</a></li>
-							<li><a href="/#contact" class="scrollto">Contact</a></li>
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://instagram.com/chrissabato">
+									<span class="btn-icon-inner fab fa-instagram"></span>
+								</a>
+							</li>
+
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://twitter.com/chrissabato">
+									<span class="btn-icon-inner fab fa-twitter"></span>
+								</a>
+							</li>
+
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://mastodon.chrissabato.com/@chrissabato">
+									<span class="btn-icon-inner fab fa-mastodon"></span>
+								</a>
+							</li>
+
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://linkedin.com/go/chrissabato">
+									<span class="btn-icon-inner fab fa-linkedin"></span>
+								</a>
+							</li>
+
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://discordapp.com/users/558117063714013184">
+									<span class="btn-icon-inner fab fa-discord"></span>
+								</a>
+							</li>
+
+							<li class="list-inline-item">
+								<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle"
+									href="https://hgithub.com/chrissabato">
+									<span class="btn-icon-inner fab fa-github"></span>
+								</a>
+							</li>
+
 						</ul>
 					</nav>
-					<div class="nav-divider my-8"></div>
-					<nav>
-						<ul class="list-inline text-center social-links">
-							
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://facebook.com/chrissabato">
-												<span class="btn-icon-inner fab fa-facebook-f"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://instagram.com/chrissabato">
-												<span class="btn-icon-inner fab fa-instagram"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://twitter.com/chrissabato">
-												<span class="btn-icon-inner fab fa-twitter"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://mastodon.chrissabato.com/@chrissabato">
-												<span class="btn-icon-inner fab fa-mastodon"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://linkedin.com/go/chrissabato">
-												<span class="btn-icon-inner fab fa-linkedin"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://discordapp.com/users/558117063714013184">
-												<span class="btn-icon-inner fab fa-discord"></span>
-											</a>
-										</li>
-									
-										<li class="list-inline-item">
-											<a rel="me" class="btn btn-sm btn-icon btn-outline-white border-0 rounded-circle" href="https://hgithub.com/chrissabato">
-												<span class="btn-icon-inner fab fa-github"></span>
-											</a>
-										</li>
-									
-						</ul>
-					</nav>
+					<p class="text-center">© Chris Sabato - All Rights Reserved</p>
 				</div>
-			</header>
+			</footer>
 
-			<!-- Header overlay -->
-			<div class="header-overlay">
-				<div class="overlay-inner bg-primary opacity-80"></div>
-			</div>
+		</div><!-- end .article-wrapper -->
 
-			<!-- Back to top button -->
-			<button type="button" id="backtotop" class="btn btn-primary btn-icon">
-				<span class="btn-icon-inner fas fa-angle-up"></span>
-			</button>
-      
-			<!-- article wrapper -->
-			<div class="page-wrapper">
-          {% block content %}
-          {% endblock content %}
-        	<!-- Site footer -->
-					<footer class="site-footer bg-light">
-						<div class="container">					
-							<nav class="mb-3">
-								<ul class="list-inline text-center">
-									
-									
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://facebook.com/chrissabato">
-														<span class="btn-icon-inner fab fa-facebook-f"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://instagram.com/chrissabato">
-														<span class="btn-icon-inner fab fa-instagram"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://twitter.com/chrissabato">
-														<span class="btn-icon-inner fab fa-twitter"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://mastodon.chrissabato.com/@chrissabato">
-														<span class="btn-icon-inner fab fa-mastodon"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://linkedin.com/go/chrissabato">
-														<span class="btn-icon-inner fab fa-linkedin"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://discordapp.com/users/558117063714013184">
-														<span class="btn-icon-inner fab fa-discord"></span>
-													</a>
-												</li>
-											
-												<li class="list-inline-item">
-													<a rel="me" class="btn btn-lg btn-icon btn-outline-dark border-0 rounded-circle" href="https://hgithub.com/chrissabato">
-														<span class="btn-icon-inner fab fa-github"></span>
-													</a>
-												</li>
-											
-								</ul>
-							</nav>
-							<p class="text-center">© Chris Sabato - All Rights Reserved</p>
-						</div>
-					</footer>
+	</div>
 
-			</div><!-- end .article-wrapper -->
+	<!-- Libs JS -->
+	<script src="/theme/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="/theme/vendor/popper.js/dist/popper.min.js"></script>
+	<script src="/theme/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/theme/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="/theme/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="/theme/vendor/jquery-form/dist/jquery.form.min.js"></script>
+	<script src="/theme/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="/theme/vendor/isotope/dist/isotope.pkgd.min.js"></script>
+	<script src="/theme/vendor/featherlight/jquery.detect_swipe.js"></script>
+	<script src="/theme/vendor/featherlight/featherlight.min.js"></script>
+	<script src="/theme/vendor/featherlight/featherlight.gallery.min.js"></script>
+	<script src="/theme/vendor/slick/slick.min.js"></script>
+	<script src="/theme/vendor/vegas/vegas.min.js"></script>
+	<script src="/theme/vendor/typed.js/typed.min.js"></script>
+	<script src="/theme/vendor/granim.js/dist/granim.min.js"></script>
 
-		</div>
-
-		<!-- Libs JS -->
-		<script src="/theme/vendor/jquery/dist/jquery.min.js"></script>
-		<script src="/theme/vendor/popper.js/dist/popper.min.js"></script>
-		<script src="/theme/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="/theme/vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="/theme/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-		<script src="/theme/vendor/jquery-form/dist/jquery.form.min.js"></script>
-		<script src="/theme/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-		<script src="/theme/vendor/isotope/dist/isotope.pkgd.min.js"></script>
-		<script src="/theme/vendor/featherlight/jquery.detect_swipe.js"></script>
-		<script src="/theme/vendor/featherlight/featherlight.min.js"></script>
-		<script src="/theme/vendor/featherlight/featherlight.gallery.min.js"></script>
-		<script src="/theme/vendor/slick/slick.min.js"></script>
-		<script src="/theme/vendor/vegas/vegas.min.js"></script>
-		<script src="/theme/vendor/typed.js/typed.min.js"></script>
-		<script src="/theme/vendor/granim.js/dist/granim.min.js"></script>
-
-		<!-- Theme JS -->
-		<script src="/theme/js/main.js"></script>
-		
+	<!-- Theme JS -->
+	<script src="/theme/js/main.js"></script>
 
 
-	</body>
+
+</body>
+
 </html>
