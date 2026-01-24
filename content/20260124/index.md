@@ -7,7 +7,7 @@ Tags: featured
 
 
 # Remote Production though a sinlge url
-<img src="20260124/20260124.jpg">
+<img src="20260124.jpg">
 
 Since the proliferation of Zoom, video conferencing, and remote work, I’ve been thinking of ways to leverage these technologies to support our broadcast productions. Willamette University is a small liberal arts college, and the students it attracts aren't typically drawn to "nuts and bolts" engineering roles. This often limits my local talent pool; however, removing the requirement to be on-premise greatly expands my prospective pool of help.
 
