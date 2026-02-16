@@ -25,7 +25,7 @@
 	<meta property="og:title" content="{{ article.title|striptags }}" />
 	<meta property="og:description" content="{{ article.summary|striptags|truncate(200) }}" />
 	{% set article_slug = article.url|replace('/index.html', '')|replace('index.html', '') %}
-	<meta property="og:image" content="{{ SITEURL }}/{% if article.og_image %}{{ article.og_image }}{% elif article_slug %}{{ article_slug }}/{{ article_slug }}.jpg{% elif article.image %}{{ article.image }}{% else %}theme/images/image-1.jpg{% endif %}" />
+	<meta property="og:image" content="{{ SITEURL }}/{% if article_slug %}{{ article_slug }}/{{ article_slug }}.jpg{% elif article.image %}{{ article.image }}{% else %}theme/images/image-1.jpg{% endif %}" />
 	{% elif page %}
 	<meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
 	<meta property="og:title" content="{{ page.title|striptags }}" />
