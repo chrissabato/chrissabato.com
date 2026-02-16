@@ -6,7 +6,7 @@ Status: hidden
 ---
 
 
-# After Hours Lab: Claud Code Website
+# After Hours Lab: Claude Code Website
 
 ***Sunday, March 1 at 10 a.m. PT | [After Hours Breakout Room](https://zoom.us/meeting/register/tJIocuqsqT8pHNHE6mRQ5gMvhUAwnAd5-I2s?_x_zm_rtaid=UC5YApTMTcufbtmwcLtZnQ.1770943518775.8493840c9663bb1123334fd5c34530e1&_x_zm_rhtaid=8#/)*** 
 
