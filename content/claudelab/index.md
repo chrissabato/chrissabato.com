@@ -24,11 +24,15 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
 **Installations**
 
 * [**Claude Code**](https://code.claude.com/docs/en/quickstart) — Install Claude Code via one of the methods below
-    * **macOS, Linux, WSL:** curl -fsSL https://claude.ai/install.sh | bash
-    * **Windows Command line:** curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
-    * **Windows PowerShell:** irm https://claude.ai/install.ps1 | iex
+    * **macOS, Linux, WSL:**
+        * Terminal: ```curl -fsSL https://claude.ai/install.sh | bash```
+    * **Windows**:
+        * Command line: ```curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd```
+        * Update PATH: For some reason the installer doesn't update the PATH correctly.
+            * Run in Command Prompt: ```setx PATH "%PATH%; %USERPROFILE%\.local\bin"```
+            * Restart Command Prompt to load PATH
 * [**Git**](https://git-scm.com/install/windows) — **[Windows Only]** Download and install or use winget. *Git is usually preinstalled on Mac OS.*
-    * **Windows Command line:** winget install --id Git.Git -e --source winget
+    * **Windows Command line:** ```winget install --id Git.Git -e --source winget```
 
 
 

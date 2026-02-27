@@ -34,3 +34,5 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = "themes/sabato"
+
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight)']
