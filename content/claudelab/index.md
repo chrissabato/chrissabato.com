@@ -23,6 +23,8 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
 
 **Installations**
 
+* [**Homebrew**](https://brew.sh/) — **[mac only]** Makes installing command-line tools on macOS easier
+    * Terminal: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 * [**Git**](https://git-scm.com/install/windows) — Version control for communicating with GitHub
     * **Windows** 
         * Command Prompt: ```winget install --id Git.Git -e --source winget```
@@ -37,14 +39,11 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
             * Run in Command Prompt: ```setx PATH "%PATH%;%USERPROFILE%\.local\bin"```
             * Restart Command Prompt to load PATH
 * [**GitHub CLI**](https://github.com) — This will make authenticating with GitHub easier
-    * **Windows**
-        * Command Prompt: ```winget install --id GitHub.cli```
     * **macOS**
         * Terminal (Homebrew): ```brew install gh```
-
+    * **Windows**
+        * Command Prompt: ```winget install --id GitHub.cli```
 
 **Optional** 
 
 * [**Install VS Code**](https://code.visualstudio.com/) — This is optional, but you may find it helpful. If we have time will talk a little more about it.
-* [**Install Homebrew**](https://brew.sh/) — **[mac only]** Makes installing commandlinbe tools on macOS easier
-    * Terminal: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
