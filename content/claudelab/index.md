@@ -23,23 +23,28 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
 
 **Installations**
 
-* [**Git**](https://git-scm.com/install/windows) — **[Windows Only]** Download and install or use winget. *Git is usually preinstalled on Mac OS.*
-    * **Windows Command Prompt:** ```winget install --id Git.Git -e --source winget```
+* [**Git**](https://git-scm.com/install/windows) — Version control for communicating with GitHub
+    * **Windows** 
+        * Command Prompt: ```winget install --id Git.Git -e --source winget```
+    * **macOS**
+        * Terminal (Homebrew): ```brew install git```
 * [**Claude Code**](https://code.claude.com/docs/en/quickstart) — Install Claude Code via one of the methods below
-    * **macOS, Linux, WSL:**
+    * **macOS**
         * Terminal: ```curl -fsSL https://claude.ai/install.sh | bash```
     * **Windows**:
         * Command Prompt: ```curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd```
         * Update PATH: For some reason the installer doesn't update the PATH correctly.
             * Run in Command Prompt: ```setx PATH "%PATH%;%USERPROFILE%\.local\bin"```
             * Restart Command Prompt to load PATH
-* [**GitHub**](https://github.com) — This will make authenticating with GitHub easier
-    * **Windows:**
+* [**GitHub CLI**](https://github.com) — This will make authenticating with GitHub easier
+    * **Windows**
         * Command Prompt: ```winget install --id GitHub.cli```
-    * **macOS, Linux, WSL:**
+    * **macOS**
         * Terminal (Homebrew): ```brew install gh```
 
 
 **Optional** 
 
 * [**Install VS Code**](https://code.visualstudio.com/) — This is optional, but you may find it helpful. If we have time will talk a little more about it.
+* [**Install Homebrew**](https://brew.sh/) — **[mac only]** Makes installing commandlinbe tools on macOS easier
+    * Terminal: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
