@@ -33,8 +33,11 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
         * Update PATH: For some reason the installer doesn't update the PATH correctly.
             * Run in Command Prompt: ```setx PATH "%PATH%;%USERPROFILE%\.local\bin"```
             * Restart Command Prompt to load PATH
-
-
+* [**GitHub**](https://github.com) — This will make authenticating with GitHub easier
+    * **Windows:**
+        * Command Prompt: ```winget install --id GitHub.cli```
+    * **macOS, Linux, WSL:**
+        * Terminal (Homebrew): ```brew install gh```
 
 
 **Optional** 
