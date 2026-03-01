@@ -1,6 +1,7 @@
 ---
 Title: After Hours Lab: Claud Code Website
 Date: 2026-03-01
+Updated: Feb 28, 2026
 Summary: A beginner-friendly lab that teaches you to create, commit, and publish a simple website using Claude Code, GitHub, and GitHub Pages.
 Status: hidden
 ---
