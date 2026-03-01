@@ -48,3 +48,10 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
 **Optional** 
 
 * [**Install VS Code**](https://code.visualstudio.com/) — This is optional, but you may find it helpful. If we have time will talk a little more about it.
+
+
+## Claude Code Prompt
+
+Here’s the starting prompt. This will be used during the lab, you don't need to do anything with it ahead of time. It’s a bit vague on purpose so we can tweak whatever results we get.
+
+```Develop a production logging tool as a single-file web application (HTML/JS) suitable for GitHub Pages. Include a 'Start' button to begin the session and a 'Log' button that allows the user to input a note. Upon clicking 'Stop,' the app should automatically generate and download a CSV file containing all notes with their respective timestamps.```
