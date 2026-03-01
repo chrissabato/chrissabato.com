@@ -35,4 +35,14 @@ AUTHOR_FEED_RSS = None
 
 THEME = "themes/sabato"
 
-MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight)']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown_include.include': {
+            'base_path': 'content',
+        },
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
