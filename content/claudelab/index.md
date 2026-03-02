@@ -9,7 +9,7 @@ Status: hidden
 
 # After Hours Lab: Claude Code Website
 
-***Sunday, March 1 at 10 a.m. PT | [After Hours Breakout Room](https://zoom.us/meeting/register/tJIocuqsqT8pHNHE6mRQ5gMvhUAwnAd5-I2s?_x_zm_rtaid=UC5YApTMTcufbtmwcLtZnQ.1770943518775.8493840c9663bb1123334fd5c34530e1&_x_zm_rhtaid=8#/)*** 
+***Sunday, March 1 at 10 a.m. PT | After Hours Breakout Room*** 
 
 This introductory lab will explore creating a website with Claude Code. We'll use Claude to build a simple website using html and javascript, commit it to GitHub, and publish it to the web using GitHub Pages. While the website itself may be basic, you'll become familiar with the process so you can apply it to your own projects.
 
