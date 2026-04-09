@@ -102,6 +102,17 @@ A web app for crowdsourcing photo identification. Upload a gallery, share a toke
 
 <hr>
 
+
+### vMix Ad Manger
+A web app for managing and scheduling video ads in vMix broadcast production software. Configure your ad library, generate weighted playlists by duration, and send them directly to a vMix playlist input — from any browser on your network.
+
+<a href="https://github.com/chrissabato/vmix-ad-manager" target="_blank">GitHub</a>
+
+<img style="max-width:400px;" src="{static}/ai-built-tools/vmix-ad-manager.jpg">
+
+<hr>
+
+
 ### Dakbot
 MicroPython firmware for an ESP32-S3-ETH board that reads live scoreboard data from a Daktronics AllSport 5000 controller and serves it as JSON over Ethernet. Monitors RTD serial packets at 19200 baud and supports baseball, basketball, volleyball, football, and hockey/lacrosse. Requires a MAX3232 level shifter for RS-232 conversion.
 
