@@ -117,3 +117,5 @@ A web app for managing and scheduling video ads in vMix broadcast production sof
 MicroPython firmware for an ESP32-S3-ETH board that reads live scoreboard data from a Daktronics AllSport 5000 controller and serves it as JSON over Ethernet. Monitors RTD serial packets at 19200 baud and supports baseball, basketball, volleyball, football, and hockey/lacrosse. Requires a MAX3232 level shifter for RS-232 conversion.
 
 <a href="https://github.com/chrissabato/dakbot" target="_blank">GitHub</a>
+
+<img style="max-width:400px;" src="{static}/ai-built-tools/dakbot.jpg">
