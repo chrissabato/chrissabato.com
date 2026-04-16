@@ -2,6 +2,7 @@
 Title: Dakbot — AllSport 5000 Data
 Date: 2026-04-16
 Summary: A compact ESP32-powered device that extracts scoreboard data from Daktronics AllSport 5000 systems, serving JSON feeds with MQTT support and remote updates for live streaming applications.
+Tags: featured
 ---
 
 # Dakbot — AllSport 5000 Data
