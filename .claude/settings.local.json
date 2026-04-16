@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm show *)",
+      "Bash(curl -s https://registry.npmjs.org/bootstrap/latest)",
+      "Read(//tmp/**)",
+      "Bash(npm pack *)",
+      "Bash(tar -xzf bootstrap-5.3.8.tgz)"
     ]
   }
 }

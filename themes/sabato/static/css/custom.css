@@ -1,5 +1,10 @@
 ﻿/* Place Your Custom Styles Here */
 
+/* Bootstrap 5 sets scroll-behavior:smooth on :root, conflicting with jQuery scroll animation */
+:root {
+    scroll-behavior: auto;
+}
+
 .social-links li{
     margin:0 !important;
 }
