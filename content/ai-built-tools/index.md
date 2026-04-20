@@ -16,7 +16,7 @@ Manages simultaneous SRT video restreams for tennis tournaments with up to 6 cou
 
 <a href="https://github.com/chrissabato/Tennis-SRT-Scorebug-Gateway" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/20260314/20260314.jpg"> <img style="max-width:400px;" src="{static}/20260314/Tennis Court Scorebug Sample.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/20260314/20260314.jpg"> <img style="max-width:400px;width:100%;" src="{static}/20260314/Tennis Court Scorebug Sample.jpg">
 
 
 <hr>
@@ -26,7 +26,7 @@ A PHP dashboard for managing SRT video streams from multiple AIDA cameras. Enabl
 
 <a href="https://github.com/chrissabato/aida-srt" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/aida-srt.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/aida-srt.jpg">
 
 
 <hr>
@@ -36,7 +36,7 @@ A browser-based LUFS audio level meter for real-time microphone monitoring. Impl
 
 <a href="https://chrissabato.github.io/audiometer/" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/audiometer" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/audio-meters.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/audio-meters.jpg">
 
 
 <hr>
@@ -44,7 +44,7 @@ A browser-based LUFS audio level meter for real-time microphone monitoring. Impl
 ### Broadcast Stats Parser
 Parses live stats XMLs and generates various data feeds for broadcast graphics systems.
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/broadcast-stats.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/broadcast-stats.jpg">
 
 
 <hr>
@@ -78,7 +78,7 @@ A web-based controller for the Bolin EXU-230NX PTZ camera. Supports pan/tilt/zoo
 
 <a href="https://github.com/chrissabato/bolin-control" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/bolin-ptz.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/bolin-ptz.jpg">
 
 
 <hr>
@@ -88,17 +88,17 @@ An Electron-based GUI application for routing audio between a Behringer XR18 mix
 
 <a href="https://github.com/chrissabato/ndi-comms-router" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/ndi-audio.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/ndi-audio.jpg">
 
 
 <hr>
 
-### Photo ID
-A web app for crowdsourcing photo identification. Upload a gallery, share a token-based link with identifiers, and let them tag names to photos one-by-one with keyboard navigation. Exports to CSV and can write XMP metadata directly to image files via an included Windows utility.
+### TagMyPhoto
+TagMyPhoto is a photo management platform for sports organizations that automates the tedious work of tagging and crediting people in photos. Photographers upload event galleries, staff tag athletes using team rosters, and the platform embeds professional IPTC/XMP metadata — names, keywords, photographer credits — directly into the image files. When done, everyone gets a download link with a fully-tagged ZIP ready for press releases, social media, or archiving.
 
-<a href="https://github.com/chrissabato/photo-id" target="_blank">GitHub</a>
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/tagmyphoto.jpg">
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/photo-id.jpg">
+TagMyPhoto is a more advanved and scaleable version of an earlier project: <a href="https://github.com/chrissabato/photo-id" target="_blank">GitHub</a>
 
 <hr>
 
@@ -108,7 +108,7 @@ A web app for managing and scheduling video ads in vMix broadcast production sof
 
 <a href="https://github.com/chrissabato/vmix-ad-manager" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/vmix-ad-manager.jpg">
+<img style="max-width:400px;width:100%;width:100%;" src="{static}/ai-built-tools/vmix-ad-manager.jpg">
 
 <hr>
 
@@ -118,4 +118,4 @@ MicroPython firmware for an ESP32-S3-ETH board that reads live scoreboard data f
 
 <a href="https://github.com/chrissabato/dakbot" target="_blank">GitHub</a>
 
-<img style="max-width:400px;" src="{static}/ai-built-tools/dakbot.jpg">
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/dakbot.jpg">
