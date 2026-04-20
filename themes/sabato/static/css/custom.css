@@ -30,3 +30,8 @@
         z-index: 9999;
     }
 }
+
+.page-content hr {
+    border-top: 1px solid var(--bs-blue);
+    margin: 40px auto;
+}
