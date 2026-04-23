@@ -1,6 +1,6 @@
 ---
 Date: 2025-09-23
-Updated: Dec 8, 2025
+Updated: Apr 23, 2026
 Title: Recomendations
 Summary: A running collection of things I use and things I often recomend
 Tags: featured
@@ -32,6 +32,7 @@ Folks often ask me about things I use or recomend. As that happens I will add th
     * Behringer WING Rack | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/WINGRACK--behringer-wing-rack-48-channel-digital-mixer) — _If you need lot of inputs, mix busses and dante. I have the X32, but the WING is it's replacement._
 * Broadcast Cameras
     * _I really like the JVC GY-HC500UN, but JVC is getting out of the pro video market so I would not suggest purchasing JVC cameras._
+    * Panasonic AG-CX350 — [B&H](https://www.bhphotovideo.com/c/product/1545631-REG/panasonic_ag_cx350pj5_ag_cx350_4k_camcorder.html) — _This is the one I've been eyeing for my next camerera_
     * Canon XA65 — [B&H](https://www.bhphotovideo.com/c/product/1725873-REG/canon_5732c002_xa65_professional_uhd_4k.html)
     * Panasonic HC-X2 — [B&H](https://www.bhphotovideo.com/c/product/1725398-REG/panasonic_hc_x2_4k_camcorder.html)
     * Sony PXW-Z20 [B&H](https://www.bhphotovideo.com/c/product/1848319-REG/sony_pxw_z200_4k_1_cmos.html)
@@ -39,7 +40,8 @@ Folks often ask me about things I use or recomend. As that happens I will add th
     * Marshall CV504 — [B&H](https://www.bhphotovideo.com/c/product/1769309-REG/marshall_electronics_cv504_micro_pov_camera.html)
     * Marshall CV504-WP (waterproof) — [B&H](https://www.bhphotovideo.com/c/product/1769310-REG/marshall_electronics_cv504_wp_all_weather_micro_camera_3g_sdi.html)
 * NDI Cameras
-    * Marshall CV355-30X-NDI — [B&H](https://www.bhphotovideo.com/c/product/1596394-REG/marshall_electronics_cv355_30x_ndi_full_hd_ndi_3g_sdi_hdmi.html)
+    * Aida HD-NDI-X20 — [B&H](https://www.bhphotovideo.com/c/product/1751686-REG/aida_imaging_hd_ndi_x20_full_hd_ndihx_ip_srt_hdmi_poe.html)
+    * Aida HD-NDI-X30 — [B&H](https://www.bhphotovideo.com/c/product/1776614-REG/aida_imaging_uhd_ndi3_x30_uhd_4k_60_ndihx3_ip_srt_hdmi_poe.html)
     * Aida HD-NDI-200 — [B&H](https://www.bhphotovideo.com/c/product/1580290-REG/aida_imaging_hd_ndi_200_full_hd_ndi_hx2_hdmi.html) — _I have 8 of these, they are a good bang for the buch, but are getting a little long in the tooth Aida has some new options that may be a better choice._
 * Switcher — _I prefer [vMix](https://www.vmix.com/) on Windows. It's very flexible, but that comes at a cost. If you want simple, Production Truck on an M4 Mac is hard to beat._
     * Thunderbolt Capture Devices
