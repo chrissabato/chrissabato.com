@@ -29,6 +29,6 @@ Yesterday provided the perfect stress test: a swim meet and a basketball game sc
 
 This project evolved from a proof-of-concept to a tool I can reliably leverage when I’m short on staff. The next step? Tweaking the interface for baseball and softball this spring.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/0UvTXa0n1zY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

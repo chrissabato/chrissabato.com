@@ -11,6 +11,10 @@ I wanted a way to automate score overlays for our tennis broadcasts without the 
 
 <a href="{static}/20260314/20260314.jpg"><img src="{static}/20260314/20260314.jpg"></a>
 
+<div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/hDnOuzhvTUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 
 ## The Stack
 - Node.js (Management & UI)

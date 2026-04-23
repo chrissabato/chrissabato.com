@@ -23,7 +23,7 @@ Sabato's "Automated Play-By-Play Spotting Charts" empower broadcast teams to be 
 
 
 ###CSC ChangeMaker Innovation Entry
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/HJAY6UnxmPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 

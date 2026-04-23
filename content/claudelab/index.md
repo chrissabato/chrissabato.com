@@ -58,7 +58,7 @@ Here’s the starting prompt. This will be used during the lab, you don't need t
 
 ## Lab Recording
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
 <iframe width="100%" src="https://www.youtube.com/embed/mfcq36MPqEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
