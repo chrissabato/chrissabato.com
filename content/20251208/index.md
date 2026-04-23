@@ -9,6 +9,6 @@ Here's another tool I've been working on. It's a simple multiview for watching l
 
 [Multviewer](https://hls.chrissabato.com/mv)
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/2cJ_ma0kQfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
