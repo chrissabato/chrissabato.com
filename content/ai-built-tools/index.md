@@ -119,3 +119,12 @@ MicroPython firmware for an ESP32-S3-ETH board that reads live scoreboard data f
 <a href="https://github.com/chrissabato/dakbot" target="_blank">GitHub</a>
 
 <img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/dakbot.jpg">
+
+<hr>
+
+### XML 2 vMix
+A powershell script that will monitor an XML stat file produced by StatCrew, NCAA LiveStats, and Presto Stats and generate JSON files ready to injest into vMix as a datasource.
+
+<a href="https://github.com/chrissabato/xml2vmix" target="_blank">GitHub</a>
+
+<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/xml2vmix.jpg">
