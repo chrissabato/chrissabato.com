@@ -16,7 +16,7 @@ Manages simultaneous SRT video restreams for tennis tournaments with up to 6 cou
 
 <a href="https://github.com/chrissabato/Tennis-SRT-Scorebug-Gateway" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/20260314/20260314.jpg"> <img style="max-width:400px;width:100%;" src="{static}/20260314/Tennis Court Scorebug Sample.jpg">
+<a href="{static}/20260314/20260314.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/20260314/20260314.jpg"></a> <a href="{static}/20260314/Tennis Court Scorebug Sample.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/20260314/Tennis Court Scorebug Sample.jpg"></a>
 
 
 <hr>
@@ -26,7 +26,7 @@ A PHP dashboard for managing SRT video streams from multiple AIDA cameras. Enabl
 
 <a href="https://github.com/chrissabato/aida-srt" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/aida-srt.jpg">
+<a href="{static}/ai-built-tools/aida-srt.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/aida-srt.jpg"></a>
 
 
 <hr>
@@ -36,7 +36,7 @@ A browser-based LUFS audio level meter for real-time microphone monitoring. Impl
 
 <a href="https://chrissabato.github.io/audiometer/" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/audiometer" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/audio-meters.jpg">
+<a href="{static}/ai-built-tools/audio-meters.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/audio-meters.jpg"></a>
 
 
 <hr>
@@ -44,7 +44,7 @@ A browser-based LUFS audio level meter for real-time microphone monitoring. Impl
 ### Broadcast Stats Parser
 Parses live stats XMLs and generates various data feeds for broadcast graphics systems.
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/broadcast-stats.jpg">
+<a href="{static}/ai-built-tools/broadcast-stats.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/broadcast-stats.jpg"></a>
 
 
 <hr>
@@ -70,6 +70,7 @@ A searchable directory of 1,300+ college athletics websites spanning NCAA Divisi
 
 <a href="https://directory.chrissabato.com" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/college-athletics-directory" target="_blank">GitHub</a>
 
+<a href="{static}/ai-built-tools/directory.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/directory.jpg"></a>
 
 <hr>
 
@@ -78,7 +79,7 @@ A web-based controller for the Bolin EXU-230NX PTZ camera. Supports pan/tilt/zoo
 
 <a href="https://github.com/chrissabato/bolin-control" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/bolin-ptz.jpg">
+<a href="{static}/ai-built-tools/bolin-ptz.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/bolin-ptz.jpg"></a>
 
 
 <hr>
@@ -88,7 +89,7 @@ An Electron-based GUI application for routing audio between a Behringer XR18 mix
 
 <a href="https://github.com/chrissabato/ndi-comms-router" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/ndi-audio.jpg">
+<a href="{static}/ai-built-tools/ndi-audio.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/ndi-audio.jpg"></a>
 
 
 <hr>
@@ -96,7 +97,7 @@ An Electron-based GUI application for routing audio between a Behringer XR18 mix
 ### TagMyPhoto
 TagMyPhoto is a photo management platform for sports organizations that automates the tedious work of tagging and crediting people in photos. Photographers upload event galleries, staff tag athletes using team rosters, and the platform embeds professional IPTC/XMP metadata — names, keywords, photographer credits — directly into the image files. When done, everyone gets a download link with a fully-tagged ZIP ready for press releases, social media, or archiving.
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/tagmyphoto.jpg">
+<a href="{static}/ai-built-tools/tagmyphoto.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/tagmyphoto.jpg"></a>
 
 TagMyPhoto is a more advanved and scaleable version of an earlier project: <a href="https://github.com/chrissabato/photo-id" target="_blank">GitHub</a>
 
@@ -108,7 +109,7 @@ A web app for managing and scheduling video ads in vMix broadcast production sof
 
 <a href="https://github.com/chrissabato/vmix-ad-manager" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;width:100%;" src="{static}/ai-built-tools/vmix-ad-manager.jpg">
+<a href="{static}/ai-built-tools/vmix-ad-manager.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/vmix-ad-manager.jpg"></a>
 
 <hr>
 
@@ -116,9 +117,9 @@ A web app for managing and scheduling video ads in vMix broadcast production sof
 ### Dakbot
 MicroPython firmware for an ESP32-S3-ETH board that reads live scoreboard data from a Daktronics AllSport 5000 controller and serves it as JSON over Ethernet. Monitors RTD serial packets at 19200 baud and supports baseball, basketball, volleyball, football, and hockey/lacrosse. Requires a MAX3232 level shifter for RS-232 conversion.
 
-<a href="https://github.com/chrissabato/dakbot" target="_blank">GitHub</a>
+<a href="https://github.com/chrissabato/dakbot" target="_blank">GitHub</a> | [Dakbot Post](/20260416/)
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/dakbot.jpg">
+<a href="{static}/ai-built-tools/dakbot.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/dakbot.jpg"></a>
 
 <hr>
 
@@ -127,4 +128,4 @@ A powershell script that will monitor an XML stat file produced by StatCrew, NCA
 
 <a href="https://github.com/chrissabato/xml2vmix" target="_blank">GitHub</a>
 
-<img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/xml2vmix.jpg">
+<a href="{static}/ai-built-tools/xml2vmix.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/xml2vmix.jpg"></a>
