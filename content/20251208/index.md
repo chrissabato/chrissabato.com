@@ -7,7 +7,7 @@ Summary: I created a single-file web app that lets you watch multiple live strea
 ## Live Stream Multiview
 Here's another tool I've been working on. It's a simple multiview for watching live streams. With the help of Gemini, I created this single-file web app that lets you watch multiple live streams in a multiview.
 
-[Multviewer](https://hls.chrissabato.com/mv)
+[Multviewer](https://mv.chrissabato.com/)
 
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/2cJ_ma0kQfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
