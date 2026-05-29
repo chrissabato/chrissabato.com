@@ -130,6 +130,7 @@ A powershell script that will monitor an XML stat file produced by StatCrew, NCA
 
 <a href="{static}/ai-built-tools/xml2vmix.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/xml2vmix.jpg"></a>
 
+<hr>
 
 ### HSL Official Review
 
