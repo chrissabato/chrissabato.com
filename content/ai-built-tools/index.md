@@ -1,6 +1,7 @@
 ---
 Title: AI Broadcast Tools
 Date: 2026-04-07
+Updated: May 29, 2026
 Summary: A running list of open-source and proprietary broadcast tools I've built for live sports production.
 Tags: broadcast, sports, tools, open-source
 ---
