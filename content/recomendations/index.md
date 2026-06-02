@@ -24,7 +24,7 @@ Folks often ask me about things I use or recomend. As that happens I will add th
 * Audio
     * Audio-Technica BPHS1 | Broadcast Headset — [B&H](https://www.bhphotovideo.com/c/product/656153-REG/Audio_Technica_BPHS1_BPHS1_Broadcast_Stereo_Headset.html)
     * Behringer HA400 | Headphone amplifier — [Amazon](https://a.co/d/2pARGKO) — _If you need mutiple headsets with a basic mixer._
-* Audio Mixers — _A chocie of audio mixer really depends on your use case. Personally I like a digitalk mixer that can be controlled remotley. That won't work if you need something with faders sitting next to the play-by-play_ 
+* Audio Mixers — _A chocie of audio mixer really depends on your use case. Personally I like a digital mixer that can be controlled remotley. That won't work if you need something with faders sitting next to the play-by-play_ 
     * RODE RODECaster Pro II — [B&H](https://www.bhphotovideo.com/c/product/1696424-REG/rode_rcp2_rodecaster_pro_2_podcasting.html)
     * Behringer FLOW 8 — [Amazon](https://a.co/d/5z9Fvak) — _This mixer is a little quirky, but has a lot of inputs for it's size._
     * Behringer X Air XR12 | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/XR12--behringer-by-air-xr12-tablet-controlled-digital-mixer) — _If you do not need a USB interface._
