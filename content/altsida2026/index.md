@@ -7,6 +7,8 @@ Status: hidden
 
 ## AltSIDA 2026 — a CSC Convention Alternative
 ### Monday, June 8, at 12pm PT / 3pm ET
+<img src="{static}/altsida2026/altsida2026.jpg">
+
 If you can't make it to the 2026 CSC Convention join us online to combat your FOMO. 
 
 [Click here to join via Google Meet](https://meet.google.com/usq-jpsm-vmz)
