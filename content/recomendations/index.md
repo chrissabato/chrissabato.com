@@ -1,6 +1,6 @@
 ---
 Date: 2025-09-23
-Updated: June 1, 2026
+Updated: June 5, 2026
 Title: Recomendations
 Summary: A running collection of things I use and things I often recomend
 Tags: featured
@@ -30,12 +30,13 @@ Folks often ask me about things I use or recomend. As that happens I will add th
     * Behringer X Air XR12 | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/XR12--behringer-by-air-xr12-tablet-controlled-digital-mixer) — _If you do not need a USB interface._
     * Behringer X Air XR18 | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/XR18--behringer-by-air-xr18-tablet-controlled-digital-mixer) — _If you need a USB interface._
     * Behringer WING Rack | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/WINGRACK--behringer-wing-rack-48-channel-digital-mixer) — _If you need lot of inputs, mix busses and dante. I have the X32, but the WING is it's replacement._
+    * Yamaha MG10XU | Analog Mixer — [B&H](https://www.bhphotovideo.com/c/product/1026876-REG/yamaha_mg10xu_10_in_stereo.html) — _If you just need a cheap USB mixer with a handful of inputs_
 * Broadcast Cameras
     * _I really like the JVC GY-HC500UN, but JVC is getting out of the pro video market so I would not suggest purchasing JVC cameras._
-    * Panasonic AG-CX350 — [B&H](https://www.bhphotovideo.com/c/product/1545631-REG/panasonic_ag_cx350pj5_ag_cx350_4k_camcorder.html) — _This is the one I've been eyeing for my next camerera_
+    * Panasonic AG-CX370 — [B&H](https://www.bhphotovideo.com/c/product/1888580-REG/panasonic_ag_cx370_uhd_4k_handheld.html) — _This is the one I've been eyeing for my next camerera_
     * Canon XA65 — [B&H](https://www.bhphotovideo.com/c/product/1725873-REG/canon_5732c002_xa65_professional_uhd_4k.html)
-    * Panasonic HC-X2 — [B&H](https://www.bhphotovideo.com/c/product/1725398-REG/panasonic_hc_x2_4k_camcorder.html)
     * Sony PXW-Z20 [B&H](https://www.bhphotovideo.com/c/product/1848319-REG/sony_pxw_z200_4k_1_cmos.html)
+    * Canon Vixia HF G70 — [B&H](https://www.bhphotovideo.com/c/product/1725870-REG/canon_5734c002_vixia_hf_g70_uhd.html) — _If you want a cheaper camera with just HDMI_
 * POV Cameras
     * Marshall CV504 — [B&H](https://www.bhphotovideo.com/c/product/1769309-REG/marshall_electronics_cv504_micro_pov_camera.html)
     * Marshall CV504-WP (waterproof) — [B&H](https://www.bhphotovideo.com/c/product/1769310-REG/marshall_electronics_cv504_wp_all_weather_micro_camera_3g_sdi.html)
