@@ -34,11 +34,11 @@ Complete these steps before the lab. If you have issue pop into After Hours and 
 * [**Claude Code**](https://code.claude.com/docs/en/quickstart) — Install Claude Code via one of the methods below
     * **macOS**
         * Terminal: ```curl -fsSL https://claude.ai/install.sh | bash```
-    * **Windows**:
-        * Command Prompt: ```curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd```
-        * Update PATH: For some reason the installer doesn't update the PATH correctly.
-            * Run in Command Prompt: ```setx PATH "%PATH%;%USERPROFILE%\.local\bin"```
-            * Restart Command Prompt to load PATH
+    * **Windows** 
+        * Launch Command Prompt as an Administrator
+        * Install Claude Code: ```curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd```
+        * Update PATH: ```setx PATH "%PATH%;%USERPROFILE%\.local\bin"```
+        * Restart Command Prompt to load new PATH
 * [**GitHub CLI**](https://github.com) — This will make authenticating with GitHub easier
     * **macOS**
         * Terminal (Homebrew): ```brew install gh```
