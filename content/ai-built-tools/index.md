@@ -12,6 +12,15 @@ A running list of broadcast tools I've built for live sports production. Some ar
 
 <hr>
 
+### Stadium Sound
+Pudio playback for venue operators. Organize tracks into banks, trigger them instantly, and control the room.
+
+<a href="https://stadiumsound.chrissabato.com" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/stadium-sound" target="_blank">GitHub</a>
+
+<a href="{static}/ai-built-tools/stadium-sound.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/stadium-sound.jpg"></a>
+
+<hr>
+
 ### Tennis SRT Scorebug Gateway
 Manages simultaneous SRT video restreams for tennis tournaments with up to 6 court cameras. Receives SRT feeds on ports 5001–5006, fetches live scorebug images every second, overlays them onto video using FFmpeg with NVIDIA NVENC hardware encoding, and outputs to ports 6001–6006. Includes a web interface with per-court status, expandable FFmpeg logs, and optional Google Chat webhook notifications.
 
