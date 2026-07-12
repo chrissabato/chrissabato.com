@@ -1,7 +1,7 @@
 ---
 Title: AI Broadcast Tools
 Date: 2026-04-07
-Updated: May 29, 2026
+Updated: Jul 12, 2026
 Summary: A running list of open-source and proprietary broadcast tools I've built for live sports production.
 Tags: broadcast, sports, tools, open-source
 ---
@@ -13,7 +13,7 @@ A running list of broadcast tools I've built for live sports production. Some ar
 <hr>
 
 ### Stadium Sound
-Pudio playback for venue operators. Organize tracks into banks, trigger them instantly, and control the room.
+Stadium Sound is a soundboard app built for game-day audio operators at sporting events. It organizes your sound effects and music into named banks so you can find and play any clip instantly with a single click, search by artist or title, queue up playlists for a run of show, and assign keyboard shortcuts so you can trigger sounds without touching the mouse. It supports smooth fades and crossfades between tracks, lets you privately preview a clip on a separate audio output before sending it to the room, and includes a fullscreen mode for a clean, distraction-free view during the event. It's available for both Windows and Mac.
 
 <a href="https://stadiumsound.chrissabato.com" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/stadium-sound" target="_blank">GitHub</a>
 
