@@ -146,7 +146,7 @@ A powershell script that will monitor an XML stat file produced by StatCrew, NCA
 
 A browser-based HLS video player for official review. Paste any .m3u8 stream URL and play it with frame-accurate playback controls.
 
-<a href="https://officlareview.chrissabato.com" target="_blank">Public Site</a> | <a href="https://github.com/chrissabato/hls-official-review" target="_blank">GitHub</a>  | [Official Review Post](/20251122/)
+<a href="https://officialreview.chrissabato.com" target="_blank">Public Site</a> | <a href="https://github.com/chrissabato/hls-official-review" target="_blank">GitHub</a>  | [Official Review Post](/20251122/)
 
 <a href="{static}/20251122/20251122.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/20251122/20251122.jpg"></a>
 
