@@ -1,7 +1,7 @@
 ---
 Title: AI Broadcast Tools
 Date: 2026-04-07
-Updated: May 29, 2026
+Updated: Jul 12, 2026
 Summary: A running list of open-source and proprietary broadcast tools I've built for live sports production.
 Tags: broadcast, sports, tools, open-source
 ---
@@ -9,6 +9,15 @@ Tags: broadcast, sports, tools, open-source
 # AI Broadcast Tools
 A running list of broadcast tools I've built for live sports production. Some are fully open-source on GitHub; others are a bit more proprietary.
 
+
+<hr>
+
+### Stadium Sound
+Stadium Sound is a soundboard app built for game-day audio operators at sporting events. It organizes your sound effects and music into named banks so you can find and play any clip instantly with a single click, search by artist or title, queue up playlists for a run of show, and assign keyboard shortcuts so you can trigger sounds without touching the mouse. It supports smooth fades and crossfades between tracks, lets you privately preview a clip on a separate audio output before sending it to the room, and includes a fullscreen mode for a clean, distraction-free view during the event. It's available for both Windows and Mac.
+
+<a href="https://stadiumsound.chrissabato.com" target="_blank">Public Website</a> | <a href="https://github.com/chrissabato/stadium-sound" target="_blank">GitHub</a>
+
+<a href="{static}/ai-built-tools/stadium-sound.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/ai-built-tools/stadium-sound.jpg"></a>
 
 <hr>
 
@@ -137,7 +146,7 @@ A powershell script that will monitor an XML stat file produced by StatCrew, NCA
 
 A browser-based HLS video player for official review. Paste any .m3u8 stream URL and play it with frame-accurate playback controls.
 
-<a href="https://officlareview.chrissabato.com" target="_blank">Public Site</a> | <a href="https://github.com/chrissabato/hls-official-review" target="_blank">GitHub</a>  | [Official Review Post](/20251122/)
+<a href="https://officialreview.chrissabato.com" target="_blank">Public Site</a> | <a href="https://github.com/chrissabato/hls-official-review" target="_blank">GitHub</a>  | [Official Review Post](/20251122/)
 
 <a href="{static}/20251122/20251122.jpg" data-featherlight="image"><img style="max-width:400px;width:100%;" src="{static}/20251122/20251122.jpg"></a>
 
