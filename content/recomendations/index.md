@@ -31,8 +31,7 @@ Folks often ask me about things I use or recomend. As that happens I will add th
     * Behringer X Air XR18 | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/XR18--behringer-by-air-xr18-tablet-controlled-digital-mixer) — _If you need a USB interface._
     * Behringer WING Rack | Digital Mixer — [Sweatwater](https://www.sweetwater.com/store/detail/WINGRACK--behringer-wing-rack-48-channel-digital-mixer) — _If you need lot of inputs, mix busses and dante. I have the X32, but the WING is it's replacement._
 * Broadcast Cameras
-    * _I really like the JVC GY-HC500UN, but JVC is getting out of the pro video market so I would not suggest purchasing JVC cameras._
-    * Panasonic AG-CX350 — [B&H](https://www.bhphotovideo.com/c/product/1545631-REG/panasonic_ag_cx350pj5_ag_cx350_4k_camcorder.html) — _This is the one I've been eyeing for my next camerera_
+    * Panasonic AG-CX370 — [B&H](https://www.bhphotovideo.com/c/product/1888580-REG/panasonic_ag_cx370_uhd_4k_handheld.html) — _We have  four of these we use for our football broadcast. They are great._
     * Canon XA65 — [B&H](https://www.bhphotovideo.com/c/product/1725873-REG/canon_5732c002_xa65_professional_uhd_4k.html)
     * Panasonic HC-X2 — [B&H](https://www.bhphotovideo.com/c/product/1725398-REG/panasonic_hc_x2_4k_camcorder.html)
     * Sony PXW-Z20 [B&H](https://www.bhphotovideo.com/c/product/1848319-REG/sony_pxw_z200_4k_1_cmos.html)
