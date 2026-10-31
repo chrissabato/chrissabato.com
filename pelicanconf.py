@@ -46,3 +46,16 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+
+# --- Web editor (Sveltia CMS at /admin/) -----------------------------------
+# content/admin/ holds the editor page; copy it as static files instead of
+# treating index.html as an article.
+ARTICLE_EXCLUDES = ['admin']
+PAGE_EXCLUDES = ['admin']
+
+# cms_frontmatter cleans up the YAML the editor writes so Pelican reads it the
+# same way as hand-written posts. Listing PLUGINS turns off auto-discovery, so
+# data_files (from pelican-data-files) has to be named here too.
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['cms_frontmatter', 'pelican.plugins.data_files']

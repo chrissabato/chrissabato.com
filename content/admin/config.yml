@@ -1,0 +1,78 @@
+# Sveltia CMS configuration — https://github.com/sveltia/sveltia-cms
+# Open https://chrissabato.com/admin/ and choose "Sign In with Token", using a
+# fine-grained GitHub token with Contents: Read and write on this repo only.
+
+backend:
+  name: github
+  repo: chrissabato/chrissabato.com
+  # main deploys to production (deploy2prod.yml). Change to "dev" to publish
+  # to the dev site first (deploy2dev.yml).
+  branch: main
+  commit_messages:
+    create: 'New post: {{slug}}'
+    update: 'Update post: {{slug}}'
+    delete: 'Delete post: {{slug}}'
+    uploadMedia: 'Upload {{path}}'
+    deleteMedia: 'Delete {{path}}'
+
+# Site-wide uploads (rarely used — post images go into the post's own folder).
+media_folder: content/uploads
+public_folder: /uploads
+
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: content
+    # Matches the existing layout: content/YYYYMMDD/index.md
+    path: '{{year}}{{month}}{{day}}/index'
+    slug: '{{year}}{{month}}{{day}}'
+    # Images upload into the same folder as the post and are referenced by
+    # bare filename, like the existing posts do.
+    media_folder: ''
+    public_folder: ''
+    extension: md
+    format: frontmatter
+    create: true
+    summary: '{{Date}} — {{Title}}'
+    sortable_fields: ['Date', 'Title']
+    view_filters:
+      - label: Featured
+        field: Tags
+        pattern: featured
+      - label: Hidden
+        field: Status
+        pattern: hidden
+    fields:
+      - { name: Title, label: Title, widget: string }
+      - name: Date
+        label: Date
+        widget: datetime
+        format: 'YYYY-MM-DD'
+        time_format: false
+        default: '{{now}}'
+      - name: Summary
+        label: Summary
+        widget: text
+        hint: Shown on the home page cards and in link previews.
+      - name: Tags
+        label: Tags
+        widget: string
+        default: featured
+        required: false
+        hint: Comma-separated. Include "featured" to show it on the home page.
+      - name: Image
+        label: Cover image
+        widget: image
+        required: false
+        hint: Optional. If left empty, the site uses YYYYMMDD.jpg from the post folder.
+      - name: Status
+        label: Status
+        widget: select
+        required: false
+        options: [published, hidden, draft]
+        hint: Leave empty (or "published") to publish. "hidden" builds the page but keeps it off lists.
+      - { name: body, label: Body, widget: markdown }
